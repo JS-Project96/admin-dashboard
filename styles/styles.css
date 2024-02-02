@@ -31,3 +31,8 @@
 .projects-header {
     grid-row: 1 / 3;
 }
+
+ul {
+    list-style: none;
+    font-size: 24px;
+}
