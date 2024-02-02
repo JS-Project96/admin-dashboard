@@ -27,8 +27,8 @@
 .sidebar-header {
     font-size: 40px;
     font-weight: bold;
-    justify-self: center;
     align-self: center;
+    padding-left: 40px;
 }
 
 .sidebar ul {
