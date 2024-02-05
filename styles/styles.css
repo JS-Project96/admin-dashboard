@@ -85,6 +85,7 @@ button:hover {
     grid-row: 2 / 3;
     display: grid;
     grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 .main-headers{
@@ -96,9 +97,8 @@ button:hover {
 .projects-header {
     grid-row: 1 / 3;
 }
-
 .project-card {
-    height: 200px;
+    height: 250px;
     background-color: #ecfdf5;
     display: flex;
     flex-direction: column;
@@ -133,4 +133,21 @@ button:hover {
 img {
     width: 7%;
     height: auto;
+}
+
+.announcement-container {
+    background-color: #ecfdf5;
+    display: flex;
+    flex-direction: column;
+    margin: 0 5%;
+    border-radius: 25px;
+}
+
+.announcement {
+    margin: 5%;
+    font-size: 14px;
+}
+
+.announcement div {
+    font-weight: bold;
 }
