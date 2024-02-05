@@ -90,3 +90,15 @@ button:hover {
 .projects-header {
     grid-row: 1 / 3;
 }
+
+.project-card {
+    height: 200px;
+    background-color: #ecfdf5;
+}
+
+.project-container {
+    margin: 0 5%;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
