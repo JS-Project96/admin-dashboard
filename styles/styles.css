@@ -100,6 +100,21 @@ button:hover {
 .project-card {
     height: 200px;
     background-color: #ecfdf5;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 15px;
+    border-left: solid 5px #14b8a6;
+}
+
+.project-card div {
+    margin: 0 10%;
+}
+
+.card-header {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 5%;
 }
 
 .project-container {
